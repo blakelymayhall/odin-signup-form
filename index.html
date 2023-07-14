@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="source/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323:400,800" />
     <script src="source/javascript.js" defer></script>
     <title>Signup Form</title>
 </head>
@@ -17,12 +17,38 @@
         </div>
     </div>
     <div class = "right-pane">
-        <p>
-            This is not a real online service! You need to know something like this in your life to help 
-            you realize your deepest dreams. 
-        </p>
-        <p>Sign up <em>now</em> to get started</p>
-        <p>You <em>know</em> you want to.</p>
+        <div class = "header">
+            <p>
+                This is not a real online service! You need to know something like this in your life to help 
+                you realize your deepest dreams. 
+            </p>
+            <p>Sign up <em>now</em> to get started</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class = "content">
+            <p>Lets do this!</p>
+            <form>
+                <div class = "form-col1">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+                    <label for="pass">Password:</label>
+                    <input type="text" id="pass">
+                </div>
+                <div class = "form-col2">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name">
+                    <label for="phone_num">Phone Number:</label>
+                    <input type="text" id="phone_num">
+                    <label for="conf_pass">Confirm Password:</label>
+                    <input type="text" id="conf_pass">
+                </div>
+            </form>
+        </div>
+        <div class = "footer">
+
+        </div>
     </div>
 </body>
 </html>

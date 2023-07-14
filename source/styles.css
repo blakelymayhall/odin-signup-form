@@ -5,8 +5,10 @@ body {
 
 .left-pane {
     position: relative;
-    width: 40vw;
+    width: 35vw;
+    min-width: 35vw;
     height: 100vh;
+    min-height: 100vh;
 }
 
 .left-pane-img {
@@ -36,7 +38,63 @@ body {
     color: white;
     font-family: VT323;
     font-size: 6rem;
+    font-weight: 400;
     text-align: left;
     margin: 0;
     height: min-content;
+}
+
+.right-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65vw;
+    min-width: 65vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: #F3F3F3;
+}
+
+.header {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 30% 5% 5%;
+}
+
+.content {
+    width: 100%;
+    height: 30%;
+    min-height: 30%;
+    background-color: white;
+}
+
+form {
+    margin: 2% 5%;
+    display: flex;
+    gap: 10%;
+}
+
+.content > p {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    margin: 1% 5%;
+}
+
+form label {
+    font-size: 0.7rem;
+}
+
+.form-col1 label {
+    display: block;
+}
+
+.form-col2 label {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    height: 30%;
+    min-height: 30%;
 }
