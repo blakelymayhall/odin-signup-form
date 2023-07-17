@@ -27,27 +27,28 @@
         </div>
         <div class = "content">
             <p>Lets do this!</p>
-            <form>
+            <form id="myform">
                 <div class = "form-col1">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email">
-                    <label for="pass">Password:</label>
-                    <input type="text" id="pass">
+                    <label for="first_name">FIRST NAME:</label>
+                    <input type="text" id="first_name" required>
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" required>
+                    <label for="pass">PASSWORD:</label>
+                    <input type="password" id="pass" required>
                 </div>
                 <div class = "form-col2">
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name">
-                    <label for="phone_num">Phone Number:</label>
-                    <input type="text" id="phone_num">
-                    <label for="conf_pass">Confirm Password:</label>
-                    <input type="text" id="conf_pass">
+                    <label for="last_name">LAST NAME:</label>
+                    <input type="text" id="last_name" required>
+                    <label for="phone_num">PHONE NUMBER:</label>
+                    <input type="tel" id="phone_num" required>
+                    <label for="conf_pass">CONFIRM PASSWORD:</label>
+                    <input type="password" id="conf_pass" required>
                 </div>
             </form>
         </div>
         <div class = "footer">
-
+            <button type="submit" form="myform">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
         </div>
     </div>
 </body>
